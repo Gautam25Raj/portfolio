@@ -1,4 +1,11 @@
 @font-face {
+  font-family: 'La Belle Aurore';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''), url('Assests/Fonts/La-Belle-Aurore.woff2') format('woff2');
+}
+
+@font-face {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 100;
@@ -22,8 +29,8 @@
   font-style: normal;
   font-weight: 400;
   src: local(''),
-    url('Assests/Fonts/roboto-v27-latin-500.woff2') format('woff2'),
-    url('Assests/Fonts/roboto-v27-latin-500.woff') format('woff');
+    url('Assests/Fonts/roboto-v27-latin-regular.woff2') format('woff2'),
+    url('Assests/Fonts/roboto-v27-latin-regular.woff') format('woff');
   font-display: swap;
 }
 
@@ -32,8 +39,8 @@
   font-style: normal;
   font-weight: 500;
   src: local(''),
-    url('Assests/Fonts/roboto-v27-latin-700.woff2') format('woff2'),
-    url('Assests/Fonts/roboto-v27-latin-700.woff') format('woff');
+    url('Assests/Fonts/roboto-v27-latin-500.woff2') format('woff2'),
+    url('Assests/Fonts/roboto-v27-latin-500.woff') format('woff');
   font-display: swap;
 }
 
@@ -42,8 +49,8 @@
   font-style: normal;
   font-weight: 700;
   src: local(''),
-    url('Assests/Fonts/roboto-v27-latin-regular.woff2') format('woff2'),
-    url('Assests/Fonts/roboto-v27-latin-regular.woff') format('woff');
+    url('Assests/Fonts/roboto-v27-latin-700.woff2') format('woff2'),
+    url('Assests/Fonts/roboto-v27-latin-700.woff') format('woff');
   font-display: swap;
 }
 
@@ -120,5 +127,21 @@ html {
 
 body {
   background-color: #000;
+  margin: 0 100px;
 }
 
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00eeee;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #00c9c8;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background-color: #009191;
+}
