@@ -1,7 +1,7 @@
-import TextShpere from '../Components/Skills/TextSphere';
+import TextShpereData from '../Components/Skills/TextSphereData';
 
 const Skills = () => {
-  return <TextShpere />;
+  return <TextShpereData />;
 };
 
 export default Skills;
