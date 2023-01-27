@@ -2,6 +2,7 @@ import TextShpere from './TextSphere';
 
 const TextSphereData = () => {
   const container = '.tagcloud';
+  
   const texts = [
     'HTML5',
     'CSS3',
