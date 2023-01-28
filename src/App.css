@@ -27,12 +27,15 @@
   transform: translateX(-12px);
 }
 
-.heading-size {
+.heading {
   font-style: normal;
   font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.heading-h2-size {
   font-size: 10rem;
   line-height: 11.7rem;
-  letter-spacing: 0.02em;
 }
 
 .heading-color {

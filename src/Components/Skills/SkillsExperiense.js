@@ -8,7 +8,7 @@ const SkillsExperience = () => {
       <div className="skills-heading">
         <span className="element span-block">&lt;h1&gt;</span>
 
-        <h2 className="heading-size heading-color">
+        <h2 className="heading heading-h2-size heading-color">
           <TextSpan text="S" className="on-hover hover-bounce" />
           <TextSpan text="kills &" className="hover-bounce" />
           <br />
