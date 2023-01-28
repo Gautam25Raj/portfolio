@@ -21,9 +21,6 @@
 .tagcloud--item {
   color: #00c9c8;
   cursor: pointer;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 }
 
 @media only screen and (max-width: 1560px) {

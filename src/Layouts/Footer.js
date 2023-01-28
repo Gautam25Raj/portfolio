@@ -5,7 +5,7 @@ import merry from '../Assests/Images/going-merry.png';
 const Footer = () => {
   return (
     <footer className="footer">
-      <div className="footer-text">
+      <div className="footer-text no-select">
         Luffy is the captain of the Straw Hat Pirates and is best friends with
         all of them and values them over all else. At first glance, Luffy does
         not appear to be very intelligent, often seeing things in a childish
@@ -38,7 +38,7 @@ const Footer = () => {
 
       <div className="heading-color footer-mail ">ashragautam25@gmail.com</div>
 
-      <div className='going-merry'>
+      <div className="going-merry">
         <img src={merry} alt="going merry ship" />
       </div>
     </footer>

@@ -10,9 +10,6 @@
   text-align: justify;
   letter-spacing: 0.04em;
   color: #555555;
-  width: 100%;
-  cursor: default;
-  user-select: none;
 }
 
 .footer-mail {
@@ -32,4 +29,24 @@
   width: 15%;
   max-width: 260px;
   min-width: 200px;
+  overflow: hidden;
+}
+
+.going-merry img {
+  animation-name: rowing;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+}
+
+@keyframes rowing {
+  0% {
+    transform: rotateZ(0) translateX(0);
+  }
+  50% {
+    transform: rotateZ(-2deg) translate(-10px);
+  }
+  100% {
+    transform: rotateZ(0) translateX(0);
+  }
 }

@@ -1,3 +1,4 @@
+import LuffyText from './Components/LuffyText';
 import Skills from './Layouts/Skills';
 import Footer from './Layouts/Footer';
 
@@ -7,6 +8,7 @@ function App() {
   return (
     <div className="App">
       <Skills />
+      <LuffyText />
       <Footer />
     </div>
   );

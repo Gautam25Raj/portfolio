@@ -59,7 +59,13 @@
 }
 
 .transition-base {
-  transition: all 0.3s ease;
+  transition: all 0.3s linear;
+}
+
+.no-select {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 @media only screen and (max-width: 1700px) {
