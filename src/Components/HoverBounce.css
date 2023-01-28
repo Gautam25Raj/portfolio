@@ -1,0 +1,8 @@
+.hover-bounce {
+  display: inline-block;
+  transition: color 0.3s ease-out;
+}
+
+.hover-bounce:hover {
+  color: red;
+}
