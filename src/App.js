@@ -1,5 +1,5 @@
 import Skills from './Layouts/Skills';
-import TextSpan from './Components/TextSpan';
+import Footer from './Layouts/Footer';
 
 import './App.css';
 
@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="App">
       <Skills />
+      <Footer />
     </div>
   );
 }
