@@ -18,7 +18,7 @@ const HoverBounce = (props) => {
         'scale3d(1, 1, 1)',
       ],
       tranition: {
-        times: [0, 0.8, 1.2, 2.0, 2.7, 3.0],
+        times: [0, 1.8, 2.2, 2.7, 2.8, 3.0],
       },
     });
     setPlay(true);

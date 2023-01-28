@@ -4,11 +4,11 @@ import './HoverBounce.css';
 
 const TextSpan = (props) => {
   const sentence = props.text.split('');
-
+  console.log(props.className);
   return sentence.map((letter, index) => (
     <HoverBounce
       key={'skills-' + letter + '-' + index}
-      className="hover-bounce"
+      className={props.className}
     >
       {letter === ' ' ? '\u00A0' : letter}
     </HoverBounce>

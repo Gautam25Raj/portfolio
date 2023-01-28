@@ -1,3 +1,5 @@
+import TextSpan from '../TextSpan';
+
 import './SkillsExperience.css';
 
 const SkillsExperience = () => {
@@ -7,10 +9,11 @@ const SkillsExperience = () => {
         <span className="element span-block">&lt;h1&gt;</span>
 
         <h2 className="heading-size heading-color">
-          <span className="on-hover">S</span>
-          kills & <br />
-          <span className="on-hover">E</span>
-          xperience
+          <TextSpan text="S" className="on-hover hover-bounce" />
+          <TextSpan text="kills &" className="hover-bounce" />
+          <br />
+          <TextSpan text="E" className="on-hover hover-bounce" />
+          <TextSpan text="xperience" className="hover-bounce" />
         </h2>
 
         <span className="element span-block">&lt;/h1&gt;</span>
