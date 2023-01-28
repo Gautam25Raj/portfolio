@@ -1,0 +1,23 @@
+.luffy-text-container {
+  overflow: hidden;
+  padding: 60px 0 360px 0;
+}
+
+.luffy-text {
+  font-size: 100px;
+  font-weight: 800;
+  white-space: nowrap;
+  margin: -20px 0;
+  transform: rotateZ(5deg);
+}
+
+.luffy-text-color {
+  color: #fff;
+}
+
+.luffy-text-border {
+  color: #000;
+  background-color: #000;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
+    1px 1px 0 #fff;
+}
