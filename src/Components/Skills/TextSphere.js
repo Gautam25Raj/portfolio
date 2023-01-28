@@ -1,23 +1,17 @@
-import { useEffect } from 'react';
-import TagCloud from 'TagCloud';
+import { TagCloud } from '@frank-mayer/react-tag-cloud';
 
 import './TextSphere.css';
 
-const TextShpere = (props) => {
-  console.log(props.container);
-  useEffect(() => {
-    return () => {
-      TagCloud(props.container, props.texts, props.options);
-    };
-  }, []);
-
-  return (
-    <>
-      <div className="text-shpere">
-        <span className="tagcloud"></span>
-      </div>
-    </>
-  );
-};
+const TextShpere = (props) => (
+  <div className="text-shpere">
+    <TagCloud
+      options={() => props.options}
+      // onClick={(tag: string, ev: MouseEvent) => alert(tag)}
+      // onClickOptions={{ passive: true }}
+    >
+      {props.texts}
+    </TagCloud>
+  </div>
+);
 
 export default TextShpere;

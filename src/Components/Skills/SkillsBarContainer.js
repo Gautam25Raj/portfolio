@@ -1,6 +1,6 @@
 import SkillsBar from './SkillsBar';
 
-import './SkillsBar.css';
+import './SkillsBarContainer.css';
 
 const SkillsBars = () => {
   const skills = [
@@ -23,7 +23,7 @@ const SkillsBars = () => {
   ];
 
   return (
-    <section className="skills-container">
+    <section className='skills-bar-container'>
       {skills.map((skill) => (
         <SkillsBar
           key={skill.skillName}

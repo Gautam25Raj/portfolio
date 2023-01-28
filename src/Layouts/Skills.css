@@ -1,0 +1,14 @@
+.skills-barcat-container {
+  grid-column-start: 8;
+  grid-column-end: 13;
+}
+
+.cat {
+  margin: 0 0 100px 0;
+}
+
+@media only screen and (max-width: 1560px) {
+  .skills {
+    margin: 0 30px;
+  }
+}
