@@ -1,0 +1,51 @@
+.project-image-container {
+  height: 200px;
+  height: calc(21vw + 334px);
+  max-height: 750px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.project-image-container-odd {
+  grid-column-start: 1;
+  grid-column-end: 8;
+  order: 1;
+}
+
+.project-image-container-even {
+  grid-column-start: 6;
+  grid-column-end: 13;
+}
+
+.project-images {
+  position: relative;
+}
+
+.img-abs {
+  position: absolute;
+}
+
+.project-image {
+  filter: grayscale(100);
+  width: auto;
+  transition: all 0.3s ease;
+}
+
+.hazy-img {
+  opacity: 0.08;
+}
+
+.project-image-container:hover .hazy-img {
+  display: none;
+}
+
+.project-image-container:hover .project-image {
+  filter: none;
+}
+
+.red {
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  position: absolute;
+}

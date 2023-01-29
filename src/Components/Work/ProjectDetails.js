@@ -5,13 +5,14 @@ import VisitSite from './VisitSite';
 import './ProjectDetails.css';
 
 const ProjectDetails = (props) => {
+  console.log(props.visit);
   return (
-    <div className="work-details">
-      <ProjectHeading title={props.title} />
+    <div className={'work-details work-details-' + props.evenOdd}>
+      <ProjectHeading capital={props.capital} title={props.title} />
 
       <ProjectRoles role={props.role} release={props.release} />
 
-      <VisitSite src={props.visit} />
+      <VisitSite visit={props.visit} />
     </div>
   );
 };

@@ -1,0 +1,21 @@
+.project-number {
+  font-size: calc(27px + 0.8vw);
+  font-weight: 900;
+}
+
+.project-number-num {
+  font-size: calc(18px + 0.8vw);
+}
+
+.project-number-even {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  text-align: right;
+}
+
+.project-number-odd {
+  grid-column-start: 8;
+  grid-column-end: 9;
+  order: 2;
+  text-align: left;
+}

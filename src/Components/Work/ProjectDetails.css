@@ -1,6 +1,24 @@
 .work-details {
-  grid-column-start: 1;
-  grid-column-end: 5;
   display: flex;
   flex-direction: column;
+  margin: 10rem 0 0 0;
+}
+
+.work-details-even {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.work-details-odd {
+  grid-column-start: 9;
+  grid-column-end: 13;
+  order: 3;
+}
+
+.work-details-odd .element {
+  display: none;
+}
+
+.work-details-odd .heading-h3-size {
+  margin: 0 0 6rem 0;
 }

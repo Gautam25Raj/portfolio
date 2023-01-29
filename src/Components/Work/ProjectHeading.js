@@ -8,6 +8,7 @@ const ProjectHeading = (props) => {
       <span className="element span-block">&lt;h3&gt;</span>
 
       <h3 className="heading heading-color heading-h3-size">
+        <TextSpan text={props.capital} className="hover-bounce on-hover" />
         <TextSpan text={props.title} className="hover-bounce" />
       </h3>
 
