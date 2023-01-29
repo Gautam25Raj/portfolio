@@ -1,0 +1,18 @@
+.visit-site {
+  font-size: calc(18px + 0.1vw);
+  /* font-size: 20px; */
+  border: 1px solid #00cecf;
+  border-radius: 40px;
+  padding: 7px 15px;
+  align-self: flex-end;
+}
+
+.visit-site-text {
+  margin-right: 12px;
+}
+
+.visit-site-text::after {
+  content: url(./../../Assests/SVG/visit-arrow.svg);
+  position: relative;
+  left: 12px;
+}

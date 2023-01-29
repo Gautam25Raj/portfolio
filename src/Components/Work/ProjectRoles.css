@@ -1,0 +1,26 @@
+.work-role-section {
+  margin: 0 0 6px 0;
+}
+
+.work-role-release {
+  margin: 8px 0;
+  font-size: calc(28px + 0.2vw);
+  font-family: 'Roboto Mono', serif;
+}
+
+.work-role-container {
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid #00c9c8;
+}
+
+.work-release-container {
+  padding: 20px 0 0 0;
+}
+
+.work-heading {
+  font-weight: 400;
+}
+
+.work-value {
+  font-weight: 300;
+}

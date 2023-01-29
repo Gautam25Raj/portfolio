@@ -1,5 +1,5 @@
 import ProjectImage from './ProjectImage';
-import Details from './Details';
+import ProjectDetails from './ProjectDetails';
 
 import './Project.css';
 
@@ -57,7 +57,7 @@ const Project = () => {
     <section className="grid">
       <ProjectImage img={projectsData[0].img} />
 
-      <Details
+      <ProjectDetails
         role={projectsData[0].role}
         title={projectsData[0].title}
         release={projectsData[0].release}
