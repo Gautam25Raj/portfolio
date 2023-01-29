@@ -1,5 +1,6 @@
 .hover-bounce {
   display: inline-block;
+  cursor: default;
   transition: color 0.3s ease-out;
 }
 
