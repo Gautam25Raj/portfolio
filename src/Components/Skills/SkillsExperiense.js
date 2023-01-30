@@ -6,7 +6,7 @@ const SkillsExperience = () => {
   return (
     <section className="skills-details">
       <div className="skills-heading">
-        <span className="element span-block">&lt;h1&gt;</span>
+        <span className="element span-block">&lt;h2&gt;</span>
 
         <h2 className="heading heading-h2-size heading-color">
           <TextSpan text="S" className="on-hover hover-bounce" />
@@ -16,7 +16,7 @@ const SkillsExperience = () => {
           <TextSpan text="xperience" className="hover-bounce" />
         </h2>
 
-        <span className="element span-block">&lt;/h1&gt;</span>
+        <span className="element span-block">&lt;/h2&gt;</span>
       </div>
 
       <div>

@@ -50,7 +50,7 @@ const Project = () => {
   ];
 
   return (
-    <section className="work">
+    <section className="projects">
       {projectsData.map((projectData, i) => {
         return (
           <section key={projectData.key} className="grid">
