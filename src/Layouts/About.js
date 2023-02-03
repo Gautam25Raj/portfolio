@@ -5,6 +5,8 @@ import Me from '../Components/About/Me';
 import './About.css';
 
 import airport from './../Assests/SVG/airport.svg';
+import upper from './../Assests/SVG/about-upper.svg';
+import lower from './../Assests/SVG/about-lower.svg';
 
 const About = () => {
   // const career = [
@@ -23,29 +25,37 @@ const About = () => {
   ];
 
   return (
-    <section className="about grid">
-      <AboutHeading />
+    <>
+      <section className="about">
+        <img src={upper} alt="" />
 
-      <span
-        className="element span-block"
-        style={{ gridColumnStart: 2, gridColumnEnd: 12 }}
-      >
-        &lt;section&gt;
-      </span>
-      <Me />
-      <Career years={years} events={events} />
+        <section className="grid">
+          <AboutHeading />
 
-      <div className="airport">
-        <img src={airport} alt="" />
-      </div>
+          <span
+            className="element span-block"
+            style={{ gridColumnStart: 2, gridColumnEnd: 12 }}
+          >
+            &lt;section&gt;
+          </span>
+          <Me />
+          <Career years={years} events={events} />
 
-      <span
-        className="element span-block"
-        style={{ gridColumnStart: 2, gridColumnEnd: 12 }}
-      >
-        &lt;/section&gt;
-      </span>
-    </section>
+          <div className="airport">
+            <img src={airport} alt="" />
+          </div>
+
+          <span
+            className="element span-block"
+            style={{ gridColumnStart: 2, gridColumnEnd: 12 }}
+          >
+            &lt;/section&gt;
+          </span>
+        </section>
+
+        <img src={lower} alt="" style={{ transform: 'translateY(10px)' }} />
+      </section>
+    </>
   );
 };
 

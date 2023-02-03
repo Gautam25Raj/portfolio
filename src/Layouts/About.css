@@ -1,4 +1,10 @@
 .about {
+  background-image: linear-gradient(
+      rgba(48, 48, 48, 0.9),
+      rgba(48, 48, 48, 0.9)
+    ),
+    url('../Assests/Images/paper.jpg');
+  background-size: cover;
 }
 
 .about-content {
