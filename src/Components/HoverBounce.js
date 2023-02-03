@@ -32,7 +32,7 @@ const HoverBounce = (props) => {
           rubberBand();
         }
       }}
-      className={props.className}
+      className={'hover-bounce ' + props.className || ''}
       onAnimationComplete={() => setPlay(false)}
     >
       {props.children}
