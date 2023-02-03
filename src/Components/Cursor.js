@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { ReactDOM } from 'react-dom';
 import { motion } from 'framer-motion';
 
 import './Cursor.css';
@@ -49,11 +50,16 @@ const Cursor = () => {
   };
 
   return (
-    <motion.div
-      className="cursor"
-      variants={variants}
-      animate={cursorVariant}
-    ></motion.div>
+    <>
+      {ReactDOM.createPortal(
+        <motion.div
+          className="cursor"
+          variants={variants}
+          animate={cursorVariant}
+        />,
+        document.getElementById('root-cursor')
+      )}
+    </>
   );
 };
 
