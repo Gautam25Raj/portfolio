@@ -1,0 +1,22 @@
+.about-me {
+  grid-column-start: 2;
+  grid-column-end: 12;
+}
+
+.me-noober {
+  font-family: 'Roboto Mono', serif;
+  font-size: calc(25px + 0.2vw);
+  border: 1px solid #00c9c8;
+  border-radius: 80px;
+  padding: 15px 33px;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  text-align: center;
+  max-width: 325px;
+  align-self: flex-start;
+}
+
+.me-para {
+  grid-column-start: 7;
+  grid-column-end: 12;
+}

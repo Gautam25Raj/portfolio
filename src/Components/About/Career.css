@@ -1,0 +1,19 @@
+.career {
+  grid-column-start: 2;
+  grid-column-end: 7;
+}
+
+.career-heading {
+  font-family: 'Roboto-mono', serif;
+  font-size: calc(28px + 0.2vw);
+  font-weight: 400;
+}
+
+.career-list {
+  margin: 0 0 8px 0;
+  display: flex;
+}
+
+.career-year {
+  font-weight: 500;
+}
