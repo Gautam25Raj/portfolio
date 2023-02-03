@@ -1,5 +1,5 @@
 .visit-site {
-  font-size: calc(16px + 0.2vw);
+  font-size: calc(4px + 0.8vw);
   /* font-size: 20px; */
   border: 1px solid #00c9c8;
   border-radius: 40px;
@@ -15,6 +15,9 @@
 
 .visit-site-text::after {
   content: url(./../../Assests/SVG/visit-arrow.svg);
+  display: inline-block;
   position: relative;
   left: 12px;
+  top: 2px;
+  width: calc(10px + 0.4vw);
 }

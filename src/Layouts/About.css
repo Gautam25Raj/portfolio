@@ -12,6 +12,12 @@
   grid-column-end: 12;
 }
 
+.about-mono-size {
+  font-family: 'Roboto Mono', serif;
+  /* font-size: 36px; */
+  font-size: calc(8px + 1.4vw);
+}
+
 .airport {
   grid-column-start: 9;
   grid-column-end: 12;

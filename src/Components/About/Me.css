@@ -4,14 +4,13 @@
 }
 
 .me-noober {
-  font-family: 'Roboto Mono', serif;
-  font-size: calc(25px + 0.2vw);
   border: 1px solid #00c9c8;
   border-radius: 80px;
-  padding: 15px 33px;
+  padding: 15px 25px;
   grid-column-start: 2;
   grid-column-end: 5;
   text-align: center;
+  width: 80%;
   max-width: 325px;
   align-self: flex-start;
 }

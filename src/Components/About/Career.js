@@ -6,7 +6,7 @@ const Career = (props) => {
   return (
     <section className="career">
       <Elements name="h3" />
-      <h3 className="career-heading">Career</h3>
+      <h3 className="career-heading about-mono-size">Career</h3>
       <Elements name="/h3" />
 
       <div className="career-list-container justify-between">
