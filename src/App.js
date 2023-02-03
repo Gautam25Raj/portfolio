@@ -9,11 +9,11 @@ import './App.css';
 function App() {
   return (
     <div className="App" style={{ color: '#fff' }}>
-      {/* <Cursor /> */}
-      {/* <Skills /> */}
-      {/* <Work /> */}
-      {/* <LuffyText /> */}
-      {/* <Footer /> */}
+      <Cursor />
+      <Skills />
+      <Work />
+      <LuffyText />
+      <Footer />
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { ReactDOM } from 'react-dom';
+import ReactDOM from 'react-dom';
 import { motion } from 'framer-motion';
 
 import './Cursor.css';
