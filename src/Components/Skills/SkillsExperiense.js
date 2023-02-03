@@ -1,3 +1,4 @@
+import Elements from '../Elements';
 import TextSpan from '../TextSpan';
 
 import './SkillsExperience.css';
@@ -6,7 +7,7 @@ const SkillsExperience = () => {
   return (
     <section className="skills-details">
       <div className="skills-heading">
-        <span className="element span-block">&lt;h2&gt;</span>
+        <Elements name="h2" />
 
         <h2 className="heading heading-h2-size heading-color">
           <TextSpan text="S" className="on-hover hover-bounce" />
@@ -16,11 +17,11 @@ const SkillsExperience = () => {
           <TextSpan text="xperience" className="hover-bounce" />
         </h2>
 
-        <span className="element span-block">&lt;/h2&gt;</span>
+        <Elements name="/h2" />
       </div>
 
       <div>
-        <span className="element span-block">&lt;p&gt;</span>
+        <Elements name="p" />
 
         <p className="paragraph">
           Software Developer with Quality-focused, Creative and technical MERN
@@ -48,7 +49,7 @@ const SkillsExperience = () => {
           profile for more details.
         </p>
 
-        <span className="element span-block">&lt;/p&gt;</span>
+        <Elements name="/p" />
       </div>
     </section>
   );

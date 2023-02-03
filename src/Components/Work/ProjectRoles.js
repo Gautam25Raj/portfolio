@@ -1,9 +1,10 @@
+import Elements from '../Elements';
 import './ProjectRoles.css';
 
 const ProjectRoles = (props) => {
   return (
     <section className="work-role-section">
-      <span className="element span-block">&lt;section&gt;</span>
+      <Elements name="section" />
 
       <div className="work-role-release">
         <div className="justify-between work-role-container">
@@ -21,7 +22,7 @@ const ProjectRoles = (props) => {
         </div>
       </div>
 
-      <span className="element span-block">&lt;/section&gt;</span>
+      <Elements name="/section" />
     </section>
   );
 };

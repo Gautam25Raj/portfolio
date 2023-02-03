@@ -5,7 +5,6 @@ import VisitSite from './VisitSite';
 import './ProjectDetails.css';
 
 const ProjectDetails = (props) => {
-  console.log(props.visit);
   return (
     <div className={'work-details work-details-' + props.evenOdd}>
       <ProjectHeading capital={props.capital} title={props.title} />

@@ -1,0 +1,11 @@
+.element {
+  font-family: 'La Belle Aurore', cursive;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 44px;
+  letter-spacing: 0.04em;
+  color: #929aab;
+  display: block;
+  transform: translateX(-12px);
+  cursor: default;
+}
