@@ -1,7 +1,6 @@
 import TextShpereData from '../Components/Skills/TextSphereData';
 import SkillsBarContainer from '../Components/Skills/SkillsBarContainer';
 import SkillsExperience from '../Components/Skills/SkillsExperiense';
-import TextSphere from '../Components/Skills/TextSphere';
 
 import './Skills.css';
 

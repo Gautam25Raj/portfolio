@@ -1,17 +1,19 @@
 import Cursor from './Components/Cursor';
-import LuffyText from './Components/LuffyText';
+import Header from './Layouts/Header';
+import About from './Layouts/About';
 import Skills from './Layouts/Skills';
-import Footer from './Layouts/Footer';
 import Work from './Layouts/Work';
+import LuffyText from './Components/LuffyText';
+import Footer from './Layouts/Footer';
 
 import './App.css';
-import About from './Layouts/About';
 
 function App() {
   return (
     <div className="App" style={{ color: '#fff' }}>
-      <About />
       <Cursor />
+      <Header />
+      <About />
       <Skills />
       <Work />
       <LuffyText />

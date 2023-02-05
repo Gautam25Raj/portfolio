@@ -129,8 +129,16 @@ body {
   background-color: #000;
 }
 
+a {
+  text-decoration: none;
+}
+
 img {
   width: 100%;
+}
+
+li {
+  list-style: none;
 }
 
 ::-webkit-scrollbar {
