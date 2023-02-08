@@ -1,0 +1,23 @@
+.logo {
+  padding: 7px 24px;
+  display: flex;
+  align-items: center;
+  max-width: 280px;
+}
+
+.gr {
+  width: 48px;
+  margin: 0 32px 0 0;
+}
+
+.logo-list-container {
+  flex: 1;
+}
+
+.logo-list {
+  padding: 0 10px 0 0;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
