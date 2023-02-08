@@ -1,0 +1,39 @@
+.social-container {
+  position: relative;
+}
+
+.social-links {
+  padding: 2rem 1.8rem;
+}
+
+.social-link {
+  margin: 0 auto 14px;
+  width: 3.2rem;
+  transition: transform 0.3s ease-out;
+}
+
+.social-link:hover {
+  transform: scale(1.2);
+}
+
+.follow {
+  font-size: 12px;
+  font-weight: 900;
+  transform: translateX(-10%) rotate(90deg);
+  padding: 6px 12px;
+  background-color: #929aab;
+  white-space: nowrap;
+  position: absolute;
+  bottom: -40px;
+  border-radius: 3px;
+}
+
+@media only screen and (max-width: 1700px) {
+  .social-links {
+    padding: 1.6rem 1.2rem;
+  }
+
+  .follow {
+    transform: translateX(-18%) rotate(90deg);
+  }
+}
