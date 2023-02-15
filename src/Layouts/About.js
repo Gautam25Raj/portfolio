@@ -33,7 +33,7 @@ const About = () => {
           <AboutHeading />
 
           <span
-            className="element span-block"
+            className="element span-block no-select"
             style={{ gridColumnStart: 2, gridColumnEnd: 12 }}
           >
             &lt;section&gt;
@@ -46,7 +46,7 @@ const About = () => {
           </div>
 
           <span
-            className="element span-block"
+            className="element span-block no-select"
             style={{ gridColumnStart: 2, gridColumnEnd: 12 }}
           >
             &lt;/section&gt;

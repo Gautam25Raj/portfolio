@@ -8,7 +8,7 @@ const Work = () => {
     <section className="work">
       <WorkHeading />
       <span
-        className="element span-block "
+        className="element span-block no-select"
         style={{ transform: 'translateX(0)' }}
       >
         &lt;section&gt;

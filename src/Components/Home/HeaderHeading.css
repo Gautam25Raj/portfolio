@@ -1,0 +1,40 @@
+.heading-h1-container {
+  font-size: 150px;
+  line-height: 176px;
+  letter-spacing: 0.04em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.heading-h1-box {
+  position: relative;
+  display: flex;
+}
+
+.heading-h1 {
+  -webkit-text-stroke: 3px #a3cfcd;
+  display: inline;
+  position: relative;
+  color: transparent;
+}
+
+.heading-h1-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-text-stroke: 3px #a3cfcd;
+  z-index: 0;
+  color: red;
+}
+
+.abs {
+  position: absolute;
+  width: 400px;
+  height: 800px;
+  background-color: bisque;
+  top: 20%;
+  left: 40%;
+  z-index: 2;
+}

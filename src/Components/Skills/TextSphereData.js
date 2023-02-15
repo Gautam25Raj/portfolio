@@ -64,7 +64,7 @@ const TextSphereData = () => {
 
   const options = {
     radius: currentRadius,
-    maxSpeed: 'normal',
+    maxSpeed: 'fast',
     initSpeed: 'slow',
   };
 

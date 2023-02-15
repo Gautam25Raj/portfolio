@@ -156,3 +156,13 @@ li {
 ::-webkit-scrollbar-thumb:active {
   background-color: #009191;
 }
+
+::-moz-selection {
+  color: #000;
+  background: #00c9c8;
+}
+
+::selection {
+  color: #000;
+  background: #00c9c8;
+}
