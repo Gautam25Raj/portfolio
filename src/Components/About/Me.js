@@ -3,7 +3,7 @@ import './Me.css';
 const Me = () => {
   return (
     <>
-      <p className="me-noober about-mono-size">Also, Noober</p>
+      <p className="me-noober about-mono-size">Aka, Noober</p>
 
       <p className="me-para paragraph">
         An India-based tech-savvy computer science student on the verge of
