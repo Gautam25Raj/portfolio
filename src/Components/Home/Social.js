@@ -11,22 +11,26 @@ const Social = () => {
       <ul className="social-links back-shadow">
         <li className="social-link">
           <a href="https://github.com/Gautam25Raj">
-            <img src={github} alt="github icon" />
+            <img src={github} alt="github icon" className="social-icon" />
           </a>
         </li>
         <li className="social-link">
           <a href="https://stackoverflow.com/users/13280732/nooberboy">
-            <img src={stackoverflow} alt="stackoverflow icon" />
+            <img
+              src={stackoverflow}
+              alt="stackoverflow icon"
+              className="social-icon"
+            />
           </a>
         </li>
         <li className="social-link">
           <a href="https://www.instagram.com/nooberboy/">
-            <img src={insta} alt="instagram icon" />
+            <img src={insta} alt="instagram icon" className="social-icon" />
           </a>
         </li>
         <li className="social-link">
           <a href="https://www.linkedin.com/in/gautam-raj-3932671a9/">
-            <img src={linkedin} alt="linkedin icon" />
+            <img src={linkedin} alt="linkedin icon" className="social-icon" />
           </a>
         </li>
       </ul>

@@ -3,6 +3,11 @@ import './Nav.css';
 import cross from './../../Assests/SVG/cross.svg';
 
 const Nav = () => {
+  const navOpenClose = () => {
+    document.querySelector('.nav').classList.toggle('close');
+    // document.querySelector('.nav').style.width = 'auto';
+  };
+
   return (
     <nav className="nav center back-shadow height-border">
       <ul className="nav-bar">
@@ -23,7 +28,7 @@ const Nav = () => {
         </li>
       </ul>
 
-      <button className="nav-btn absolute-center">
+      <button onClick={navOpenClose} className="nav-btn">
         <img src={cross} alt="" />
       </button>
     </nav>

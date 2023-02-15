@@ -5,17 +5,45 @@
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  transition: width 0.3s ease-in;
+}
+
+.nav.close {
+  width: 0;
 }
 
 .nav-bar {
   display: flex;
-  /* margin: 0 100px; */
+}
+
+.close .nav-bar {
+  width: 0;
+}
+
+.close .nav-list {
+  visibility: hidden;
 }
 
 .nav-list {
+  position: relative;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.04em;
+}
+
+.nav-list::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  left: 0;
+  bottom: -5px;
+  height: 2px;
+  background-color: #fff;
+  transition: all 0.3s ease-in;
+}
+
+.nav-list:hover::after {
+  width: 110%;
 }
 
 .nav-list a {
@@ -35,4 +63,9 @@
   padding: 4px;
   background-color: #eeeeee;
   cursor: pointer;
+  transition: all 0.1s ease-in;
+}
+
+.nav-btn:hover {
+  transform: scale(0.95);
 }

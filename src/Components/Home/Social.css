@@ -9,11 +9,47 @@
 .social-link {
   margin: 0 auto 14px;
   width: 3.2rem;
-  transition: transform 0.3s ease-out;
+  height: 3.2rem;
+  position: relative;
+  cursor: pointer;
 }
 
-.social-link:hover {
-  transform: scale(1.2);
+.social-link img {
+  transition: transform 0.3s ease-out, filter 0.3s ease-out;
+}
+
+.social-link::after {
+  content: '';
+  border: 2px solid transparent;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  transition: all 0.3s ease-in;
+}
+
+.social-link:hover img {
+  transform: scale(0.9);
+}
+
+.social-link:hover::after {
+  left: -3px;
+  top: -3px;
+  border: 2px solid #fff;
+  width: 110%;
+  height: 110%;
+}
+
+.social-icon {
+  filter: invert(99%) sepia(3%) saturate(819%) hue-rotate(285deg)
+    brightness(121%) contrast(100%);
+}
+
+.social-link:hover .social-icon {
+  filter: invert(74%) sepia(47%) saturate(7191%) hue-rotate(141deg)
+    brightness(103%) contrast(101%);
 }
 
 .follow {
