@@ -6,6 +6,31 @@
   padding: 7px 15px;
   align-self: flex-end;
   text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  /* background-color: #00c9c8; */
+}
+
+.visit-site::after {
+  content: '';
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  border-radius: 40px;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  transition: all 0.3s ease-in;
+  background-color: #00c9c8;
+}
+
+.visit-site:hover.visit-site::after {
+  width: 100%;
+}
+
+.visit-site:hover .visit-site-text::after {
+  filter: invert(100%) sepia(3%) saturate(7490%) hue-rotate(18deg)
+    brightness(118%) contrast(116%);
 }
 
 .visit-site-text {
@@ -20,4 +45,7 @@
   left: 12px;
   top: 2px;
   width: calc(10px + 0.4vw);
+  filter: invert(58%) sepia(99%) saturate(1416%) hue-rotate(133deg)
+    brightness(93%) contrast(101%);
+  transition: filter 0.3s ease-in;
 }

@@ -3,7 +3,7 @@ import './LuffyText.css';
 
 const LuffyText = () => {
   const { scrollYProgress } = useScroll();
-  const x = useTransform(scrollYProgress, [0.7, 0.95], [-1000, -1500]);
+  const x = useTransform(scrollYProgress, [0.8, 0.97], [-1000, -1500]);
 
   console.log(x);
 
