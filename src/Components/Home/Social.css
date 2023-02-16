@@ -8,8 +8,10 @@
 
 .social-link {
   margin: 0 auto 14px;
-  width: 3.2rem;
-  height: 3.2rem;
+  width: calc(12.3px + 1vw);
+  height: calc(12.3px + 1vw);
+  /* width: 3.2rem; */
+  /* height: 3.2rem; */
   position: relative;
   cursor: pointer;
 }
@@ -53,6 +55,7 @@
 }
 
 .follow {
+  font-size: calc(6px + 0.3vw);
   font-size: 12px;
   font-weight: 900;
   transform: translateX(-10%) rotate(90deg);

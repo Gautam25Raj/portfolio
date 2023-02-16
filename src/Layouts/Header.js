@@ -2,21 +2,41 @@ import HeaderHeading from '../Components/Home/HeaderHedning';
 import Logo from '../Components/Home/Logo';
 import Nav from '../Components/Home/Nav';
 import Social from '../Components/Home/Social';
+import HeroImage from '../Components/Home/HeroImage';
 
 import './Header.css';
+
+import sDown from './../Assests/SVG/scroll-down.svg';
+import ellipse from './../Assests/SVG/ellipse.svg';
 
 const Header = () => {
   return (
     <header>
+      <span
+        className="element span-block no-select"
+        style={{ transform: 'translateX(0)', margin: '0 0 2px 0' }}
+      >
+        &lt;body&gt;
+      </span>
+
       <section className="navigation">
         <Logo />
         <Nav />
         <Social />
       </section>
 
-      <section>
+      <section className="grid header-container">
         <HeaderHeading />
+        <p className="location">based in Patna, India</p>
+        <div className="scroll-down-svg">
+          <img src={sDown} alt="" />
+        </div>
       </section>
+
+      <HeroImage />
+      <div className="ellipse">
+        <img src={ellipse} alt="" />
+      </div>
     </header>
   );
 };

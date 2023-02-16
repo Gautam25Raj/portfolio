@@ -1,0 +1,20 @@
+.hero-img {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  bottom: -16%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media only screen and (max-width: 1700px) {
+  .hero-img {
+    bottom: -12%;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .hero-img {
+    bottom: -10%;
+  }
+}

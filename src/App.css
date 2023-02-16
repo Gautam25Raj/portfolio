@@ -48,10 +48,6 @@
   align-items: center;
 }
 
-.svg {
-  position: absolute;
-}
-
 .transition-base {
   transition: all 0.3s linear;
 }

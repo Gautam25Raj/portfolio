@@ -1,6 +1,9 @@
 import { useState } from 'react';
 
+import Elements from './../Elements';
+
 import './HeaderHeading.css';
+import HeroImage from './HeroImage';
 
 const HeaderHeading = () => {
   const [isHover, setIsHover] = useState(false);
@@ -13,7 +16,9 @@ const HeaderHeading = () => {
   };
 
   const webStyle = {
-    zIndex: isHover ? 1 : 3,
+    color: isHover ? 'rgba(250, 250, 250, 0)' : 'rgba(250, 250, 250, .6)',
+    zIndex: isHover ? 2 : 4,
+    WebkitTextStroke: isHover ? '0' : '3px #a3cfcd',
   };
 
   const webStyleBack = {
@@ -21,8 +26,9 @@ const HeaderHeading = () => {
   };
 
   const uiuxStyle = {
-    color: 'rgba(250, 250, 250, 0)',
-    zIndex: isHover ? 3 : 1,
+    color: isHover ? 'rgba(250, 250, 250, .3)' : 'rgba(250, 250, 250, 0)',
+    zIndex: 4,
+    WebkitTextStroke: isHover ? '3px #a3cfcd' : '0',
   };
 
   const uiuxStyleBack = {
@@ -30,37 +36,42 @@ const HeaderHeading = () => {
   };
 
   return (
-    <h1 className="heading-h1-container">
-      <div className="heading-h1-box">
-        <div className="heading-h1 heading-web" style={webStyle}>
-          Web Developer
+    <div className="header">
+      <Elements name="h1" />
+      <h1 className="heading-h1-container">
+        <div className="heading-h1-box heading-h1-box-web">
+          <div className="heading-h1 heading-web" style={webStyle}>
+            Web Developer
+          </div>
+
+          <div
+            className="heading-h1-back heading-web-back"
+            style={webStyleBack}
+          >
+            Web Developer
+          </div>
         </div>
 
-        <div className="heading-h1-back heading-web-back" style={webStyleBack}>
-          Web Developer
-        </div>
-      </div>
+        <div className="heading-h1-box heading-h1-box-uiux">
+          <div
+            className="heading-h1 heading-uiux"
+            style={uiuxStyle}
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+          >
+            UI/UX Designer
+          </div>
 
-      <div className="abs"></div>
-
-      <div className="heading-h1-box">
-        <div
-          className="heading-h1 heading-uiux"
-          style={uiuxStyle}
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
-        >
-          UI/UX Designer
+          <div
+            className="heading-h1-back heading-uiux-back"
+            style={uiuxStyleBack}
+          >
+            UI/UX Designer
+          </div>
         </div>
-
-        <div
-          className="heading-h1-back heading-uiux-back"
-          style={uiuxStyleBack}
-        >
-          UI/UX Designer
-        </div>
-      </div>
-    </h1>
+      </h1>
+      <Elements name="/h1" />
+    </div>
   );
 };
 

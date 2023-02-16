@@ -1,5 +1,11 @@
+.header {
+  grid-column-start: 2;
+  grid-column-end: 13;
+}
+
 .heading-h1-container {
-  font-size: 150px;
+  font-size: calc(90px + 3vw);
+  /* font-size: 150px; */
   line-height: 176px;
   letter-spacing: 0.04em;
   display: flex;
@@ -13,28 +19,26 @@
   display: flex;
 }
 
+.heading-h1-box-web {
+  align-self: flex-start;
+}
+
+.heading-h1-box-uiux {
+  align-self: flex-end;
+}
+
 .heading-h1 {
-  -webkit-text-stroke: 3px #a3cfcd;
   display: inline;
   position: relative;
   color: transparent;
+  /* transition: all 0.3s linear; */
 }
 
 .heading-h1-back {
+  transition: all 0.3s linear;
   position: absolute;
   top: 0;
   left: 0;
   -webkit-text-stroke: 3px #a3cfcd;
-  z-index: 0;
-  color: red;
-}
-
-.abs {
-  position: absolute;
-  width: 400px;
-  height: 800px;
-  background-color: bisque;
-  top: 20%;
-  left: 40%;
-  z-index: 2;
+  z-index: 1;
 }

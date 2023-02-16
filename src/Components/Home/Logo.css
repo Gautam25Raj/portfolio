@@ -6,7 +6,8 @@
 }
 
 .gr {
-  width: calc(28px + 1vw);
+  width: calc(8px + 2vw);
+  /* width: calc(28px + 1vw); */
   margin: 0 1.5vw 0 0;
 }
 
@@ -16,7 +17,8 @@
 
 .logo-list {
   padding: 0 10px 0 0;
-  font-size: 16px;
+  font-size: calc(1px + 0.76vw);
+  /* font-size: 16px; */
   line-height: 19px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
