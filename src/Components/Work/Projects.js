@@ -72,6 +72,7 @@ const Project = () => {
             <ProjectImage
               img={projectData.img}
               evenOdd={i % 2 === 0 ? 'even' : 'odd'}
+              visit={projectData.visit}
             />
           </section>
         );

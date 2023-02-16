@@ -10,11 +10,13 @@
   grid-column-start: 1;
   grid-column-end: 8;
   order: 1;
+  cursor: url(./../../Assests//Images/visit-site.png), pointer;
 }
 
 .project-image-container-even {
   grid-column-start: 6;
   grid-column-end: 13;
+  cursor: url(./../../Assests//Images/visit-site.png), pointer;
 }
 
 .project-images {

@@ -5,8 +5,17 @@ import './ProjectImage.css';
 import hazy from './../../Assests/Images/hazy.jpg';
 
 const ProjectImage = (props) => {
+  const visitSiteImage = () => {
+    window.location.href = props.visit;
+  };
+
   return (
-    <div className={'project-image-container-' + props.evenOdd}>
+    <div
+      tabindex="0"
+      role="button"
+      onClick={visitSiteImage}
+      className={'project-image-container-' + props.evenOdd}
+    >
       <Tilt tiltMaxAngleX="8" tiltMaxAngleY="5">
         <div className={'project-image-container'}>
           <div className="project-images">

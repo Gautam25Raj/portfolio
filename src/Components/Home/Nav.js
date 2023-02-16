@@ -28,7 +28,7 @@ const Nav = () => {
         </li>
       </ul>
 
-      <button onClick={navOpenClose} className="nav-btn">
+      <button aria-label="close" onClick={navOpenClose} className="nav-btn">
         <img src={cross} alt="" />
       </button>
     </nav>
