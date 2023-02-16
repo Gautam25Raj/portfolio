@@ -20,7 +20,6 @@
 
 .tagcloud--item {
   color: #00c9c8;
-  cursor: pointer;
 }
 
 @media only screen and (max-width: 1560px) {

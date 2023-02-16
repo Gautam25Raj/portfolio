@@ -13,11 +13,10 @@
   /* width: 3.2rem; */
   /* height: 3.2rem; */
   position: relative;
-  cursor: pointer;
 }
 
 .social-link img {
-  transition: transform 0.3s ease-out, filter 0.3s ease-out;
+  transition: transform 0.3s ease-out;
 }
 
 .social-link::after {
@@ -47,11 +46,6 @@
 .social-icon {
   filter: invert(99%) sepia(3%) saturate(819%) hue-rotate(285deg)
     brightness(121%) contrast(100%);
-}
-
-.social-link:hover .social-icon {
-  filter: invert(74%) sepia(47%) saturate(7191%) hue-rotate(141deg)
-    brightness(103%) contrast(101%);
 }
 
 .follow {

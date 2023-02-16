@@ -58,10 +58,6 @@
   user-select: none;
 }
 
-.cursor-default {
-  cursor: default;
-}
-
 .justify-between {
   display: flex;
   justify-content: space-between;

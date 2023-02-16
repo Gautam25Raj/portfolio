@@ -1,9 +1,9 @@
 .hover-bounce {
   display: inline-block;
-  cursor: default;
   transition: color 0.3s ease-out;
 }
 
 .hover-bounce:hover {
   color: #00c9c8;
+  color: rgb(0, 201, 200);
 }

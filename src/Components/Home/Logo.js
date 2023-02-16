@@ -8,9 +8,9 @@ const Logo = () => {
       <img src={gr} alt="" className="gr" />
 
       <ul className="logo-list-container">
-        <li className="logo-list cursor-default">Web Developer</li>
-        {/* <li className="logo-list cursor-default">UI UX Designer</li>
-        <li className="logo-list cursor-default">Software Engineer</li> */}
+        <li className="logo-list">Web Developer</li>
+        {/* <li className="logo-list">UI UX Designer</li>
+        <li className="logo-list">Software Engineer</li> */}
       </ul>
     </div>
   );

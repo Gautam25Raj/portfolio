@@ -37,7 +37,7 @@ const Cursor = () => {
       width: 100,
       x: mousePosition.x - 50,
       y: mousePosition.y - 50,
-      backgroundColor: '#fff',
+      mixBlendMode: 'difference',
     },
   };
 

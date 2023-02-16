@@ -3,6 +3,10 @@ import './Footer.css';
 import merry from '../Assests/Images/going-merry.png';
 
 const Footer = () => {
+  const copyText = async (e) => {
+    await navigator.clipboard.writeText('ashragautam25@gmail.com');
+  };
+
   return (
     <footer className="footer">
       <div className="footer-text no-select">
@@ -36,7 +40,9 @@ const Footer = () => {
         World Government and his childhood hero Shanks.
       </div>
 
-      <div className="heading-color footer-mail ">ashragautam25@gmail.com</div>
+      <div className="heading-color footer-mail" onClick={copyText}>
+        ashragautam25@gmail.com
+      </div>
 
       <div className="going-merry">
         <img src={merry} alt="going merry ship" />

@@ -20,6 +20,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  cursor: url(./../Assests/Images/click-to-copy.png), copy;
 }
 
 .going-merry {
