@@ -12,19 +12,19 @@ const Nav = () => {
     <nav className="nav center back-shadow height-border">
       <ul className="nav-bar">
         <li className="nav-list">
-          <a href="#">About</a>
+          <a href="#about">About</a>
         </li>
 
         <li className="nav-list">
-          <a href="#">Skills</a>
+          <a href="#skills">Skills</a>
         </li>
 
         <li className="nav-list">
-          <a href="#">Project</a>
+          <a href="#project">Project</a>
         </li>
 
         <li className="nav-list">
-          <a href="#">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
 

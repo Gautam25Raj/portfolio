@@ -6,9 +6,8 @@ import HeroImage from '../Components/Home/HeroImage';
 
 import './Header.css';
 
-// import hero from './../Assests/Images/gautam.png';
 import sDown from './../Assests/SVG/scroll-down.svg';
-import ellipse from './../Assests/SVG/ellipse.svg';
+import ellipse from './../Assests/Images/ellipse.png';
 import { useState } from 'react';
 
 const Header = () => {

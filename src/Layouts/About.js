@@ -26,7 +26,7 @@ const About = () => {
 
   return (
     <>
-      <section className="about">
+      <section className="about" id="about">
         <img src={upper} alt="" style={{ transform: 'translateY(-10px)' }} />
 
         <section className="grid">

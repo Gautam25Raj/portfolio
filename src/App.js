@@ -1,4 +1,3 @@
-import Cursor from './Components/Cursor';
 import Cursors from './Components/Cursors';
 import Header from './Layouts/Header';
 import About from './Layouts/About';
@@ -12,7 +11,6 @@ import './App.css';
 function App() {
   return (
     <div className="App" style={{ color: '#fff' }}>
-      {/* <Cursor /> */}
       <Cursors />
       <Header />
       <About />

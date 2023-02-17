@@ -8,7 +8,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="footer">
+    <footer className="footer" id="contact">
       <div className="footer-text no-select">
         Luffy is the captain of the Straw Hat Pirates and is best friends with
         all of them and values them over all else. At first glance, Luffy does

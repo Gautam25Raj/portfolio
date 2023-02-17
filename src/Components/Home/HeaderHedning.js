@@ -3,7 +3,6 @@ import { useState } from 'react';
 import Elements from './../Elements';
 
 import './HeaderHeading.css';
-import HeroImage from './HeroImage';
 
 const HeaderHeading = () => {
   const [isHover, setIsHover] = useState(false);

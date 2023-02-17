@@ -5,7 +5,7 @@ import './Work.css';
 
 const Work = () => {
   return (
-    <section className="work">
+    <section className="work" id="project">
       <WorkHeading />
       <span
         className="element span-block no-select"

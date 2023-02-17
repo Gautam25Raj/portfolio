@@ -8,7 +8,7 @@ import cat from './../Assests/SVG/dark-cat.svg';
 
 const Skills = () => {
   return (
-    <section className="skills">
+    <section className="skills" id="skills">
       <section className="skills-container grid">
         <SkillsExperience />
 

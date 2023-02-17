@@ -3,7 +3,6 @@ import './HeroImage.css';
 import hero from './../../Assests/Images/gautam.png';
 
 const HeroImage = (props) => {
-  const a = 5;
   return (
     <div className="hero-img">
       <img
